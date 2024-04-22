@@ -1,4 +1,4 @@
-@media(max-width: 375px){
+@media(max-width: 425px){
 
     body{
         background-image: url(../images/bg-mobile.svg);
@@ -6,46 +6,35 @@
         background-repeat: no-repeat;
     }
 
-    .container{
-        display: flex;
-        padding: 40px;
-        flex-direction: column;
-    }
-
     .logo img{
-        width: 160px;
+        margin: 20px 
     }
 
     .informations{
         flex-direction: column;
-    }
-
-    .image-mockups img{
-        width: 300px;
-    }
-
-    .info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
-    .info .title{
-        font-family: "Popins", sans-serif;
-        font-size: 1.5rem;
+    .informations .image-mockups img{
+        width: 300px;
+    } 
+
+    .info{
         text-align: center;
-        font-weight: 600;
+        padding: 0;
+    }
+    
+    .info .title{
+        font-size: 1.7rem;
+        margin: 0 30px;
     }
 
     .info p{
-        text-align: center;
-        font-size: 0.9rem;
+        margin: 0 30px
     }
-    
 
     .redes{
-        padding: 80px 0px 0px 0px;
+        padding: 50px;
         justify-content: center;
     }
 } 

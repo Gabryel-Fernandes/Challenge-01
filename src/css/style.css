@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    background-image: url(../images/bg-desktop.svg);
+    background: url(../images/bg-desktop.svg);
     background-size: cover;
     background-color: var(--background-color);
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
